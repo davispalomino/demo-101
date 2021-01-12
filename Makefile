@@ -3,7 +3,7 @@ PROJECT 		= falcon
 ENV     		= prd
 SERVICE 		= demo
 AWS_REGION		= us-east-1
-AWS_ACCOUNT_ID = 508571872065
+AWS_ACCOUNT_ID = 00000
 # docker - variable
 REPO_PATH       = $(REPO_HOST)/$(PROJECT)-$(ENV)/$(SERVICE)
 BUILD_UID       = $(shell id -u)
